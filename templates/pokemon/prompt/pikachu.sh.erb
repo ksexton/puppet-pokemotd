@@ -1,0 +1,16 @@
+function pokemotd-prompt {
+
+    case $TERM in
+	xterm*)
+            TITLEBAR='\[\033]0;\u@\h:\w\007\]'
+            ;;
+	*)
+            TITLEBAR=""
+            ;;
+    esac
+
+    PS1="${TITLEBAR}\
+[\u@\[\033[0;93m\h\[\033[0;00m\] \w]\$ "
+}
+
+PROMPT_COMMAND=pokemotd-prompt

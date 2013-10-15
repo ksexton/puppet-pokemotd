@@ -91,3 +91,14 @@ Original pokemon naming convention and Pokemon ASCII art taken from
 [this](https://news.ycombinator.com/item?id=6540044) thread on HackerNews.
 
 ASCII art downloaded from [here](http://www.angelfire.com/mn/Maija/pokemon/pokepack.zip)
+
+
+TODO
+----
+
+* Break up into classes
+* Come up with plan for managing custom prompts
+* Automatically create RGB from host name
+* Any facter facts?
+* Custom load of remote info from ticket system
+* Figure out multi-color hostnames
